@@ -1,0 +1,20 @@
+.header {
+  background-color: #8050e6 !important;
+  /* rgb(230, 96, 123) */
+}
+
+.searchfield {
+  /* width: auto !important; */
+  max-width: 40%;
+}
+
+.listposts {
+  margin-bottom: 20px;
+}
+
+.pages {
+  width: fit-content;
+  /* max-width: 90vw; */
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
