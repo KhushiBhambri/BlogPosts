@@ -45,7 +45,7 @@ function search(){
 let PagePosts = SearchPosts.slice(start,endpost)
   return (
     <div className="App">
-      <Header searchval={searchval} setsearchval={setsearchval} search={search}/>
+      <Header searchval={searchval} setsearchval={setsearchval} search={search} pg={PageNo}/>
       <div className="Up"><h1> Blog Posts</h1><DropBx PostperPage={PostperPage} setppp={setPostperPage}/></div>
       <Postpage posts={PagePosts} load={Loading}/>
        <Pages PostperPage={PostperPage} TotalPosts={SearchPosts.length} setpg={setPageNo}/>

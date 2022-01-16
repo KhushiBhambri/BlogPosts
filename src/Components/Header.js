@@ -56,7 +56,7 @@ function search(){
 }
 
 
-export default function Header({searchval,setsearchval,search}) {
+export default function Header({searchval,setsearchval,search,pg}) {
   const handleChange = (event) => {
     setsearchval(event.target.value);
   };
@@ -91,6 +91,7 @@ export default function Header({searchval,setsearchval,search}) {
           >
             My App
           </Typography>
+         
           <Search className="searchfield">
             <SearchIconWrapper>
               <SearchIcon />
@@ -107,6 +108,7 @@ export default function Header({searchval,setsearchval,search}) {
               }}
             />
           </Search>
+          <a className="PageNo" href="#Pages">Page {pg}</a>
         </Toolbar>
       </AppBar>
     </Box>

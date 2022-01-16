@@ -12,6 +12,17 @@
   margin-bottom: 20px;
 }
 
+.PageNo {
+  color: aliceblue;
+  margin-left: 10px;
+  /* border-radius: 40%;
+  border: 1px solid black;
+  padding: 5px; */
+}
+.PageNo:hover {
+  color: black;
+}
+
 .pages {
   width: fit-content;
   /* max-width: 90vw; */
