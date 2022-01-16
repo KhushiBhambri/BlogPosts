@@ -13,7 +13,7 @@ export const Pages = ({PostperPage,TotalPosts,setpg}) => {
                 <ul className="pagination pages">
                     {PageNums.map(Pg=>(
                         <li key={Pg} className='page-item'>
-                            <a onClick={()=>setpg(Pg)} href='!#' className="page-link">{Pg}</a>
+                            <a onClick={()=>setpg(Pg)} href="" className="page-link">{Pg}</a>
                         </li>
                     ))}
                 </ul>
