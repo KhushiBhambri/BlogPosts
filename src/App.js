@@ -18,8 +18,6 @@ const [PostperPage,setPostperPage]=useState(10);
 useEffect(()=>{
   const fetchposts= async ()=>{
     setLoading(true)
-    //  const res= await axios.get('https://jsonplaceholder.typicode.com/posts');
-    // const res = JSON.parse(myposts);
     const res= myposts
     console.log(res)
     setPosts(res.data)

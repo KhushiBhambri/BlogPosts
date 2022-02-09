@@ -89,7 +89,7 @@ export default function Header({searchval,setsearchval,search,pg}) {
             align="left"
             sx={{ flexGrow: 1, display: { sm: 'block' } }}
           >
-            My App
+            Khushi Bhambri Blogs
           </Typography>
          
           <Search className="searchfield">
