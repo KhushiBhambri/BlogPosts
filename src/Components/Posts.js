@@ -34,7 +34,9 @@ export const Postpage = ({posts,load}) => {
                   
                     <li style={poststyle} key={post.id} className="list-group-item postitem" >
                         <h4 style={{color:"#9964f9"}}>{post.title}</h4>
+                        <u><h6>In {post.publication} On {post.Date}</h6></u>
                         <p>{post.body}</p>
+                        <a href={post.link}>View post Here!</a>
                     </li>
                    
                 ))
