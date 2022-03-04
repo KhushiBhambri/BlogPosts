@@ -31,8 +31,15 @@ const res={
 ,'title': "Deploying ReactJS WebSites Using Netlify"
 ,'body': 'React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. React is widely used as a base in the development of single-page or mobile applications But deploying ReactJS projects have been a task well known.'
 ,'link':"https://medium.com/towardsdev/deploying-reactjs-websites-using-netlify-78e538342c72"
-}
-
+},``
+{
+    'id': '5'
+    ,'Date':'04-Mar-2022'
+    ,'publication': "KhushiBhambri"
+    ,'title': "Top Begineer Friendly Web Development Projects using APIs"
+    ,'body': 'In this article, I am going to discuss some amazing beginner Friendly Web development Projects using APIs. I have also Shared links to free APIs for these mini projects.'
+    ,'link':https://medium.com/@KhushiBhambri/top-beginner-friendly-projects-using-apis-f43356aeac7f"
+    }
 ]
 }
 
