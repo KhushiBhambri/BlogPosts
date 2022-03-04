@@ -36,8 +36,8 @@ const res={
 'id': '5'
 ,'Date':'04-Mar-2022'
 ,'publication': "KhushiBhambri"
-,'title': "Top Begineer Friendly Web Development Projects using APIs"
-,'body': 'In this article, I am going to discuss some amazing beginner Friendly Web development Projects using APIs. I have also Shared links to free APIs for these mini projects.'
+,'title': "Top Beginner Friendly Web Development Projects using APIs"
+,'body': 'In this article, I have discussed some amazing beginner Friendly Web development Projects using APIs. I have also Shared links to free APIs for these mini projects.'
 ,'link':"https://medium.com/@KhushiBhambri/top-beginner-friendly-projects-using-apis-f43356aeac7f"
 }
 
